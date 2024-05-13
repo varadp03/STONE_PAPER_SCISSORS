@@ -1,0 +1,98 @@
+@font-face {
+    font-family:packman;
+    src: url(fonts/pacfont/PAC-FONT.TTF);
+   
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    text-align: center;
+    
+}
+
+#myVideo {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+  }
+
+h1{
+    background-color: rgb(93, 235, 218);
+    color: rgb(13, 70, 9);
+    height: 7rem;
+    line-height: 7rem;
+    font-family:"packman";
+    
+
+
+    
+}
+.choice{
+    height:165px;
+    width:165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: aquamarine;
+    cursor:grab;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    
+}
+.Players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    margin-top: 3rem;;
+    gap: 5rem;
+
+    
+}
+.Score{
+    border-radius: 0%;
+    color:black;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    border-radius: 30%;
+    border-color: black;
+}
+.msg{
+    margin-top: 4rem;
+    background-color: rgb(93, 235, 218);
+    color: rgb(13, 70, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+   font-family: "packman";
+}
